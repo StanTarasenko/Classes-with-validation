@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to the List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/41e280d657.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form id="form" class="form">
+
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Type student name" id="name" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="lastname">Lastname</label>
+                <input type="text" placeholder="Type student lastname" id="lastname" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="age">Age</label>
+                <input type="text" placeholder="Type student age" id="age" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="point">Points</label>
+                <input type="text" placeholder="Type student point" id="point" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-button" id="form-button">
+            <button>Add the student</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container2">
+
+        <div class="header">
+            <h2>Students List</h2>
+        </div>
+
+        <div class="update">
+        <ol class="listOfStudents"></ol>
+        <button class="updatebtn" id="updatebtn">Update the List</button>
+        </div>
+    
+
+    </div>
+
+</body>
+</html>
